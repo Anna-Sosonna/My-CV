@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    display: flex;
+}
+.wraper {
+    display: flex;
+    width: 100%;
+    
+}
+    
+   
+.wraper .left-content{
+    width:30% ;
+    background-image: url("./fon.left.jpg");
+    padding: 0 0 0 100px;
+    
+    
+
+}
+.wraper .right-content{
+    width: 70%;
+    background: url("./flauers..jpg")no-repeat center 100%;
+/* ЧОМУ КАРТИНКА НЕ РОЗТЯГУЕТЬСЯ НА ЦІЛИЙ ЕКРАН  */
+    padding: 0 0 0 50px;
+
+}
+.wraper .left-content .candidate-photo{
+    box-sizing: border-box;
+}
+.wraper .left-content .candidate-photo img{
+    width: 50%;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+.wraper .left-content .Contacts-candidate{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0 0 0 15%; */
+    box-sizing: border-box;
+    margin: 20px;
+    color: blue;
+}
+.wraper .left-content .Contacts-candidate .contacts-candidate-item{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.wraper .left-content .Contacts-candidate img {
+    width: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+.wraper .left-content .candidate-education {
+    /* width: 100%; */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.wraper .left-content .candidate-education h1{
+    color: blue;
+    letter-spacing: 3px;
+}
+
+   
+.wraper .left-content .candidate-education h2 {
+    letter-spacing: 3px;
+}
+.wraper .left-content .candidate-education p{
+    font-size: medium;
+    
+}
+.wraper .left-content .candidate-skills {
+    /* width: 100%; */
+    height: 450px;
+    margin: 20px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+   
+}
+.wraper .left-content .candidate-skills .candidate-skills-item {
+    color: black;
+    font-size: medium;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+}
+.wraper .right-content .Name-candidate{
+    width: 100%;
+    height: 250px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    
+ 
+}
+.wraper .right-content .about-candidat{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.wraper .right-content .about-candidat .about-my{
+    color: blue;
+    letter-spacing: 3px;
+    border-bottom: 1px;
+}
+
+    
+
+.wraper .right-content .work-experience{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.wraper .right-content .work-experience h1{
+    color: blue;
+}
+.wraper .right-content .work-experience .work-experience-item .position {
+    display: flex;
+    justify-content: space-between;
+}
+.wraper .right-content .work-experience .work-experience-item .position p{
+    color: blue;
+}
+.wraper .right-content .footer {
+    width: 70%;
+    height: 200px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+.wraper .right-content .footer p{
+    color: black;
+    font-size: 20px;
+
+}
+
+
